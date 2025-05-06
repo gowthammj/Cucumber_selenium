@@ -13,7 +13,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		dryRun=false,
 		snippets = SnippetType.CAMELCASE,
 		publish=true, //to generate console link report but for this need github account
-		plugin= {"pretty","html:target/html_reports/samplereport.html"}
+		plugin= {"pretty","html:target/html_reports/samplereport.html",
+				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 		
 		
 		)

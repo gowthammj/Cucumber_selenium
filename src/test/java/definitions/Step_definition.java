@@ -62,7 +62,7 @@ public class Step_definition extends Base {
 	public void enterPersonalInformationOfFirstNameLastNameEmailPasswordAndConfirmPassword() {
 		sendkeysvalue(ca.getF_name(), "Gowtham");
 		sendkeysvalue(ca.getL_name(), "Mj");
-		sendkeysvalue(ca.getEmail(), "gowthamluma178@gmail.com");
+		sendkeysvalue(ca.getEmail(), "gowthamluma182@gmail.com");
 		ca.getPwd().sendKeys("GowPoc@123456");
 		ca.getC_pwd().sendKeys("GowPoc@123456");
 		}
